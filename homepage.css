@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: greenyellow;
+    width: 100%;
+    height: 15%;
+    border-bottom: 2px solid black;
+    transition: 5s;
+}
+header > h1{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 0 2% 2%;
+    font-weight: bolder;
+    transition: 5s;
+}
+header > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 0 2% 2%;
+    font-weight: bold;
+    transition: 5s;
+}
+.textobutton{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+    }
+#button{
+    background-color: blueviolet;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 3px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: darkmagenta;
+    color: white;
+}
+#image{
+    width: 300px;
+    height: 270px;
+    border-radius: 30px;
+    border: 2px yellow double;
+}
+#div1{
+    width: 100%;
+    height: 30%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 4px black solid;
+    border-bottom: 4px black solid;
+    padding: 3% 0 3% 0;
+}
+#troca_img{
+    border-radius: 10px;
+    background-color: darkorange;
+    color: pink;
+    font-family: arial;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+#troca_img:hover{
+    background-color: brown;
+    color: black;
+    transition: 2s;
+    cursor: pointer;
+}
+#troca_img:active{
+    color: white;
+    transition: 0;
+}
+
+#troca_gif{
+    border-radius: 10px;
+    background-color: olivedrab;
+    color: black;
+    font-family: arial;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bolder;
+    border: 1px white solid;
+}
+#troca_gif:hover{
+    background-color: black;
+    color: green;
+    transition: 2s;
+    cursor: pointer;
+}
+#troca_gif:active{
+    color: white;
+    transition: 0;
+}
+#image2{
+    width: 400px;
+    height: 320px;
+    border-radius: 30px;
+    border: 2px yellow double;
+}
+#div2{
+    width: 100%;
+    height: 30%;
+    background-color: #001E00;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 4px black solid;
+    border-bottom: 4px black solid;
+    padding: 3% 0 3% 0;
+}
